@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IS219 Gallery (Project 3)</title>
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <!-- Vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <div id="vue_app" class="container">
+
+    <div class="header">
+      <div class="container">
+        <h1 id="app_title">Movies of 2033</h1>
+      </div>
+    </div>
+
+    <div class="main">
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img
+              class="poster img-fluid slideshow"
+              src="img/darkknight.jpg"
+              data-images="img/darkknight.jpg,img/darkknight2.jpg"
+            />
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+            <div class="imageInfo">Click image</div>
+
+            <p class="title">The Dark Knight (USA)</p>
+            <p class="score"><i class="bi bi-star"></i> 8.9</p>
+            <p class="runtime">Runtime: 152</p>
+            <p class="released">Released: 2008-7-18 | Rated: PG-13</p>
+            <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img
+              class="poster img-fluid slideshow"
+              src="img/godfather.jpg"
+              data-images="img/godfather.jpg,img/godfather2.jpg,img/godfather_3.jpg"
+            />
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+            <div class="imageInfo">Click image</div>
+
+            <p class="title">The Godfather (USA)</p>
+            <p class="score"><i class="bi bi-star"></i> 9.2</p>
+            <p class="runtime">Runtime: 175</p>
+            <p class="released">Released: 1972-3-24 | Rated: R</p>
+            <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img
+              class="poster img-fluid slideshow"
+              src="img/shawshank.jpg"
+              data-images="img/shawshank.jpg,img/shawshank2.jpg,img/shawshank3.jpg"
+            />
+
+          
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+            <p class="title">The Shawshank Redemption (USA)</p>
+            <p class="score"><i class="bi bi-star"></i> 9.3</p>
+            <p class="runtime">Runtime: 142</p>
+            <p class="released">Released: 1994-10-14 | Rated: R</p>
+
+            <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+  <div class="thumbnail">
+
+    <img
+      class="poster img-fluid slideshow"
+      src="img/ac1.jpg"
+      data-images="img/ac1.jpg,img/ac2.jpg,img/ac3.jpg"
+    />
+
+    <div class="imageInfo">Click image</div>
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+    <p class="title">ASSASSINS CREED (USA)</p>
+    <p class="score"><i class="bi bi-star"></i> 7.5</p>
+    <p class="runtime">Runtime: 125</p>
+    <p class="released">Released: 2016-12-21 | Rated: PG-13</p>
+
+    <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+
+    
+  </div>
+</div>
+
+      </div>
+<div class="row mt-4">
+  <div class="col-md-6">
+  <div class="thumbnail">
+
+    <img
+      class="poster img-fluid slideshow"
+      src="img/toy1.jpg"
+      data-images="img/toy1.jpg,img/toy2.jpg,img/toy3.jpg"
+    />
+
+    <div class="imageInfo">Click image</div>
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+    <p class="title">TOY STORY (USA)</p>
+    <p class="score"><i class="bi bi-star"></i> 8.3</p>
+    <p class="runtime">Runtime: 81</p>
+    <p class="released">Released: 1995-11-22 | Rated: G</p>
+
+    <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+
+    
+  </div>
+</div>
+
+  <div class="col-md-6">
+  <div class="thumbnail">
+
+    <img
+      class="poster img-fluid slideshow"
+      src="img/cars1.jpg"
+      data-images="img/cars1.jpg,img/cars2.jpg,img/cars3.jpg"
+    />
+
+    <div class="imageInfo">Click image</div>
+<div class="social">
+      <p class="likes"><i class="bi bi-hand-thumbs-up"></i> LIKES</p>
+      <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> DISLIKES</p>
+    </div>
+    <p class="title">CARS 3 (USA)</p>
+    <p class="score"><i class="bi bi-star"></i> 7.2</p>
+    <p class="runtime">Runtime: 102</p>
+    <p class="released">Released: 2017-6-7 | Rated: PG</p>
+
+    <p class="websites">
+      Websites:
+      <a href="IMDB_LINK">imdb</a> |
+      <a href="OFFICIAL_SITE">website</a>
+    </p>
+
+    
+
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT (must be at bottom) -->
+  <script>
+    // Vue app (required for IS219)
+    const vue_app = Vue.createApp({
+      created () {
+        fetch('movies.json')
+          .then(response => response.json())
+          .then(json => {
+            this.movies = json
+          })
+      },
+      data() {
+        return {
+          movies: []
+        }
+      }
+    });
+
+    vue_app.mount("#vue_app");
+
+    // Slideshow click logic
+    document.querySelectorAll(".slideshow").forEach(img => {
+      const images = img.dataset.images.split(",");
+      let index = 0;
+
+      img.addEventListener("click", () => {
+        index = (index + 1) % images.length;
+        img.src = images[index];
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="row">
+			<div class="col-md-6">
+				<div class="thumbnail">
+					<img class="thumbnail" src="img/godfather.jpg" alt="">
+					<img class="poster img-fluid" />
+					<div class="imageInfo">%posterindex%</div>
+
+					<p class="title">%title% (%country%)</p>
+					<p class="score"><i class="bi bi-star" aria-hidden="true"></i> %iscore% </p>
+					<p class="runtime">Runtime: %runtime%</p>
+					<p class="released">Released: %released% | Rated: %rating%</p>
+					<p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+
+					<div class="social">
+						<p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> %likes%</p>
+						<p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> %dislikes%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+code to paste-->
